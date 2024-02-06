@@ -1,0 +1,30 @@
+.topbar {
+  background-color: var(--blue);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6.25rem;
+}
+
+.topbar .left i {
+  font-size: 1.5rem;
+}
+
+.topbar .right i {
+  font-size: 1.2rem;
+}
+
+.topbar div ul {
+  list-style-type: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+}
+
+.topbar div ul li {
+  margin-right: 2rem;
+}
+
+.topbar div ul li a {
+  color: #fff;
+}

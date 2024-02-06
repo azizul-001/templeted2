@@ -1,0 +1,44 @@
+.banner {
+  background-image: url(/images/img5.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 9rem 6rem;
+  position: relative;
+  z-index: 1;
+}
+
+.banner::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: black;
+  opacity: 0.4;
+  z-index: -1;
+}
+
+.banner .text {
+  width: 50%;
+  color: #fff;
+}
+
+.banner .text h1 {
+  font-size: 3rem;
+}
+
+.banner .text p {
+  font-size: 1.3rem;
+}
+
+.banner .text button {
+  padding: 15px 30px;
+  border: none;
+  color: #fff;
+  background-color: var(--blue);
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}

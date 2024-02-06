@@ -1,0 +1,41 @@
+nav {
+  background-color: #fff;
+  padding: 0.8rem 6.25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav h1 {
+  color: var(--blue);
+  font-size: 2rem;
+}
+
+nav h1 span {
+  color: var(--wood);
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+}
+
+nav ul li {
+  margin-left: 2rem;
+}
+
+nav ul li a:hover {
+  color: var(--wood);
+  transition: all 0.15s;
+}
+
+.cont {
+  background-color: var(--blue);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 4px;
+}
+
+.cont:hover {
+  color: #fff !important;
+}

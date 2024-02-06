@@ -1,0 +1,27 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 150vw;
+}
+
+:root {
+  --blue: #102b70;
+  --dark: #040e1a;
+  --wood: #f8cc93;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}

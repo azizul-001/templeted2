@@ -1,0 +1,26 @@
+/* about section start */
+.about-heading {
+  text-align: center;
+  padding: 0 100px;
+}
+
+.about-heading h2 {
+  color: var(--wood);
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.about-heading h1 {
+  font-size: 3rem;
+  color: var(--blue);
+}
+
+.about-heading .div {
+  width: 150px;
+  margin: 0 auto;
+  border: 2px solid var(--blue);
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+/* about section end */
